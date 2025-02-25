@@ -10,4 +10,8 @@ dkms add.
 dkms autoinstall
 cd ../v4l2-relayd
 makepkg -si
+modprobe i2c-usbio gpio-usbio
+modprobe v4l2loopback
+systemctl enable v4l2-relayd
+systemctl start v4l2-relayd
 ```
