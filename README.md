@@ -1,4 +1,4 @@
-Intel MIPI ov08x40 sensor driver for Arch Linux
+Intel MIPI ov08x40 sensor driver for Arch Linux based on patches by Hans de Goede
 
 Install:
 ```
