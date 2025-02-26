@@ -10,7 +10,8 @@ sudo dkms add ov08x40/
 sudo dkms autoinstall
 cd v4l2-relayd
 makepkg -si
-sudo modprobe i2c-usbio gpio-usbio
+sudo modprobe i2c-usbio
+sudo modprobe gpio-usbio
 sudo modprobe v4l2loopback
 sudo systemctl enable v4l2-relayd
 sudo systemctl start v4l2-relayd
